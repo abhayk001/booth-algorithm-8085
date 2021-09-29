@@ -7,3 +7,4 @@ The process is pretty straightforward accroding to the Booth's algorithm, except
 To solve this, the "rar" operator, rotate accumulator to right including carry was used, and the sign register was also used.
 The last Q-1, Qn+1 bit, however you know of it, is implemented with the carry flag register, as flag registers are the only 1 bit registers you can modify.
 The "push psw" and  "pop psw" commands were used to save the status of flag variables.
+The final product is stored in the BC register pair.
